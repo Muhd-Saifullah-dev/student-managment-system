@@ -1,6 +1,6 @@
 
-const DB_NAME="student-managment-system"
+const DATABASE_NAME="student-managment-system"
 
 module.exports={
-    DB_NAME
+    DATABASE_NAME
 }
