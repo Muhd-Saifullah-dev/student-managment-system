@@ -1,0 +1,20 @@
+{
+  "name": "student-managment-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:dev":"set NODE_ENV=dev && nodemon server.js",
+    "start:prod":"set NODE_ENV=production  && node server.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
